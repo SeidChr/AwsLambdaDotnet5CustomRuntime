@@ -4,4 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
     <DebugType>embedded</DebugType>
   </PropertyGroup>
+  <ItemGroup>
+    <!-- <PackageReference Include="AWSSDK.S3" Version="3.5.5.2" /> -->
+    <PackageReference Include="Amazon.Lambda.Core" Version="1.2.0" />
+    <!-- <PackageReference Include="Amazon.Lambda.RuntimeSupport" Version="1.3.0" />
+    <PackageReference Include="Amazon.Lambda.Serialization.SystemTextJson" Version="2.1.0" /> -->
+  </ItemGroup>
 </Project>
